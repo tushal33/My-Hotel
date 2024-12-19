@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.col {
+    padding: 15px;
+    flex: 1 1 33.333%;
+    max-width: 33.333%;
+}
+
+@media (max-width: 768px) {
+    .col {
+        flex: 1 1 50%;
+        max-width: 50%;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .col {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+.facility {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.facility img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.facility h5 {
+    margin: 0 0 10px 0;
+}
+
+.facility p {
+    font-size: 14px;
+    color: #555;
+}
+
+.facilities-section {
+    margin: 3rem 1rem;
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    font-family: "Merienda", cursive;
+    font-size: 2rem;
+}
+
+.line {
+    width: 300px;
+    height: 2px;
+    background-color: #000;
+    margin: 0.5rem auto;
+}
+
+.description {
+    margin-top: 1rem;
+    font-family: 'Arial', sans-serif;
+}
+
+.faci-item {
+    display: flex;
+    align-items: center;
+}
+
+.faci-item h5 {
+    font-size: 1.7rem;
+    margin-left: 1rem;
+    font-weight: 600;
+}
+
+.air h5 {
+    font-size: 1.4rem;
+}
+
+/* contact us page */
+
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.b1 {
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 500px;
+    width: 100%;
+}
+
+.b1 p {
+    float: left;
+}
+
+.para2 {
+    margin-top: 1rem;
+}
+
+.para3 {
+    margin-top: 1rem;
+
+}
+
+/* contact form */
+
+.b2 {
+    box-shadow: 0 2px 30px ;
+    height: 550px;
+    margin-left: 2rem;
+    width: 100%;
+    padding: 2rem;
+}
+
+.b2 h3 {
+    float: left;
+}
+
+.b2 form input {
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
+}
+
+@media (width < 1000px) {
+    .box2 {
+        flex-direction: column;
+    }
+
+    .b2 {
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    .row {
+        margin: 0;
+    }
+}
+
+textarea {
+    border: 2px solid #CDD3D9;
+}
+
+label {
+    float: left;
+}
+
+.conbtn button {
+    background-color: #000000ea;
+    color: #fff;
+    border-radius: 5px;
+    float: left;
+    cursor: pointer;
+    padding: 0.7rem 1.2rem;
+}
+
+.conbtn button:hover {
+    background-color: #000;
+}
